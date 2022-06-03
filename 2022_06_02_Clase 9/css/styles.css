@@ -1,0 +1,23 @@
+body {
+    background-image: url("../img/fondo.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+    
+}
+
+h1 {
+    color:red;
+    font-size:75px;
+}
+
+
+.imagen {
+    width: 200px;
+    border-radius: 0px 0px 50px 50px;
+}
+a,p,h2 {
+    color:white;
+}

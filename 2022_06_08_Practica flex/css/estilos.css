@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+header {
+    position: sticky; 
+    top: 0px;
+    background-color: #8D91C7;
+    width: 100%;
+    z-index:2;
+}
+
+nav {
+    position: sticky;
+    top: 37px;
+    z-index: 1;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-flow:wrap row; /* Unimos direction y wrap */
+    /* flex-direction: row; Opcion x defecto */
+    /* flex-wrap: wrap; x defecto es nowrap */
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin: 0px auto;
+
+}
+
+
+/* mostrar alto y ancho con box */
+
+.item {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    margin:10px;  
+}
+
+.item-1 {
+    background-color: rgba(132,90,109,1); 
+    order:6;
+}
+
+.item-2 {
+    background-color: rgb(250, 165, 202); 
+    order:5;
+    height:100px;
+    align-self: stretch;
+}
+
+.item-3 {
+    background-color: rgba(110,117,168, 0.7);
+    order:4;
+    
+}
+.item-4 {
+    background-color: rgb(37, 172, 37); 
+    order:3;
+}
+
+.item-5 {
+    background-color: rgb(150, 151, 163); 
+    order:2;
+}
+
+.item-6 {
+    background-color: rgba(193, 40, 48, 0.7);
+}
+
+.navbar {
+    background-color: lightpink;
+}

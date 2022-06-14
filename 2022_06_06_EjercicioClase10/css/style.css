@@ -1,0 +1,43 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.descuento p{
+    background-color: #1CD1B0;
+    padding: 5px;
+    height: 38px;
+    top: 0px;
+}
+.descuento h2{
+    position: sticky;
+    background-color: #00669F;
+    padding: 10px;
+    height: 101px;
+}
+.box1{
+    border: solid red;
+    display: inline-box;
+    position: relative;
+    top:0px;
+    width: 300px;
+}
+.box1 .batman{
+    border-radius: 90px;
+    position: relative;
+    left: 75px;
+    top:-65px;
+}
+.box1 .corazonb1{
+    position: relative;
+    top: -270px;
+    left: -100px;
+}
+.box1 h6{
+}
+.box1 p{
+    text-align: inherit;
+    font-family: 100;
+}

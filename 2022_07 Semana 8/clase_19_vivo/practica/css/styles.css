@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+  }
+  body {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+  }
+
+  img {
+
+    width:20rem;
+    opacity:0;
+
+  }
+
+ 
+
+  .container {
+    display: flex;
+    background-color: rgb(224, 230, 201);
+    width:80%;
+    justify-content: center;
+   
+  }
+
+
+  /* Animaciones */
+
+  img:hover {
+
+    /* transform: scale(2);
+    transform: translate(200px);
+    transform: rotate(180deg);
+    transform: skew(15deg); */
+    animation: rotar 3s;
+  }
+  
+
+  @keyframes rotar {
+
+    0% {
+      opacity:0;
+    }
+    50% {
+      opacity:100%;
+      transform:rotate(90deg);
+    }
+    100% {
+      transform:rotate(-90deg);
+      opacity:0;
+    }
+  }
+

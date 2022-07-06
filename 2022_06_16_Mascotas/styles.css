@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.barra-inicial {
+    background-color: black;
+    color:white;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+.idioma {
+    display: flex;   
+}
+
+.navMenu {
+    color:white;
+    background-color: #F0A83E;
+    font-size: 13px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.manuNaranja span{
+    padding-right: 20px;
+}
+
+main {
+    text-align: center;
+    background-image: url('img/Banner1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #E5E5E5;
+    color: #3C2313;
+}
+
+.banner-text .titulo{
+    background-color: white;
+    font-size: 30px;
+    height: 54px;
+    border: ;
+}
+
+.banner-text .banner-text {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.banner-text{
+    font-weight: 400;
+    text-align: right;
+}
+
+.banner-text button {
+    background-color: #F0A83E;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    height: 49px;
+    width: 141px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.productos {
+    font-weight: 500;
+    font-size: 15px;
+    color: #666666;
+}
+
+.precio {
+    color:#F0A83E;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.logo {
+    height: 23px;
+}
+
+.huellita {
+    height: 14px;
+}
+
+.opciones {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20%;
+}
+
+.detalles { 
+    display: flex;
+    background-color: #3C2313; 
+    color: white;
+    ;width: 340px; 
+    height: 40px; 
+    border-radius: 15px; 
+    flex-direction: column;
+    margin: 10px; 
+    justify-content: center;}
